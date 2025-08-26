@@ -9,9 +9,12 @@ import java.util.Scanner;
  */
 public class Task1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String line = scanner.nextLine();
-        System.out.println(Arrays.stream(line.split(" ")).map(Long::parseLong).reduce(Long::sum).get());
+//        Scanner scanner = new Scanner(System.in);
+//        String line = scanner.nextLine();
+//        System.out.println(Arrays.stream(line.split(" ")).map(Long::parseLong).reduce(Long::sum).get());
+
+        var o = new Double(1.2);
+        System.out.println(o.getClass().getName());
     }
 
 }
