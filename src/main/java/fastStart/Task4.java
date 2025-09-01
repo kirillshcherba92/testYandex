@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- *
+ * 4. Выставление тегов
  */
 public class Task4 {
     public static void main(String[] args) {
